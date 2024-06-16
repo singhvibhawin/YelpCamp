@@ -1,5 +1,4 @@
 const cloudinary = require('cloudinary').v2;
-const { model } = require('mongoose');
 const { CloudinaryStorage } = require('multer-storage-cloudinary');
 
 cloudinary.config({
